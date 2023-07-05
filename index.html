@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <title>Mental Arithmetic</title>
+</head>
+<body>
+<div class="main-content">
+    <div class="speed-comp">
+        <label for="speed">speed:</label>
+        <select id="speed" name="speed">
+            <option value="little">0.5</option>
+            <option value="medium">1</option>
+            <option value="much">1.5</option>
+        </select>
+        <label for="complication">complication:</label>
+        <select id="complication" name="complication">
+            <option value="weak">weak</option>
+            <option value="medium">medium</option>
+            <option value="hard">hard</option>
+        </select>
+    </div>
+    <button id="start" onclick="startGame()">START</button>
+</div>
+<div id="body-content"></div>
+<button id="start-again" onclick="cleanContent()">START AGAIN</button>
+<script src="./index.js"></script>
+</body>
+</html>

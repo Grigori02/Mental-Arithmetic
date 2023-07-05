@@ -1,0 +1,32 @@
+body {
+  text-align: center;
+}
+body .main-content .speed-comp {
+  margin-top: 20px;
+}
+body .main-content .speed-comp label {
+  margin-left: 15px;
+}
+body #body-content {
+  width: 500px;
+  height: 450px;
+  background: #bde4e5;
+  margin: auto;
+}
+body #body-content p {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  font-size: 100px;
+}
+body button {
+  padding: 5px 15px;
+  background: #2fa8a8;
+  border-radius: 40%;
+  color: white;
+  margin: 20px 0;
+}
+
+/*# sourceMappingURL=style.css.map */
